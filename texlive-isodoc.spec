@@ -1,3 +1,9 @@
+# revision 19617
+# category Package
+# catalog-ctan /macros/latex/contrib/isodoc
+# catalog-date 2010-08-25 10:26:17 +0200
+# catalog-license lppl
+# catalog-version 0.8
 Name:		texlive-isodoc
 Version:	0.8
 Release:	1
@@ -67,6 +73,7 @@ implements the NEN1026 standard.
 %doc %{_texmfdistdir}/source/latex/isodoc/isodoc.dtx
 %doc %{_texmfdistdir}/source/latex/isodoc/isodoc.ins
 %doc %{_texmfdistdir}/source/latex/isodoc/isodoc_letterpaper.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -77,3 +84,5 @@ implements the NEN1026 standard.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
