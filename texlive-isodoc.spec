@@ -1,12 +1,12 @@
-# revision 19617
+# revision 25464
 # category Package
 # catalog-ctan /macros/latex/contrib/isodoc
-# catalog-date 2010-08-25 10:26:17 +0200
+# catalog-date 2012-02-21 17:56:23 +0100
 # catalog-license lppl
-# catalog-version 0.8
+# catalog-version 0.10
 Name:		texlive-isodoc
-Version:	0.8
-Release:	2
+Version:	0.10
+Release:	1
 Summary:	A LaTeX class for the preparation of letters and invoices
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isodoc
@@ -44,10 +44,10 @@ implements the NEN1026 standard.
 %doc %{_texmfdistdir}/doc/latex/isodoc/Root
 %doc %{_texmfdistdir}/doc/latex/isodoc/accept.tex
 %doc %{_texmfdistdir}/doc/latex/isodoc/binaries.m64
-%doc %{_texmfdistdir}/doc/latex/isodoc/doc/letter.tex
 %doc %{_texmfdistdir}/doc/latex/isodoc/inst
 %doc %{_texmfdistdir}/doc/latex/isodoc/invoice.tex
 %doc %{_texmfdistdir}/doc/latex/isodoc/isodoc.pdf
+%doc %{_texmfdistdir}/doc/latex/isodoc/isodocsymbols.sty
 %doc %{_texmfdistdir}/doc/latex/isodoc/isontg.sty
 %doc %{_texmfdistdir}/doc/latex/isodoc/isowybo.sty
 %doc %{_texmfdistdir}/doc/latex/isodoc/language_template.tex
@@ -62,7 +62,6 @@ implements the NEN1026 standard.
 #- source
 %doc %{_texmfdistdir}/source/latex/isodoc/isodoc.dtx
 %doc %{_texmfdistdir}/source/latex/isodoc/isodoc.ins
-%doc %{_texmfdistdir}/source/latex/isodoc/isodoc_letterpaper.dtx
 
 #-----------------------------------------------------------------------
 %prep
