@@ -1,11 +1,11 @@
-# revision 31572
+# revision 32246
 # category Package
 # catalog-ctan /macros/latex/contrib/isodoc
-# catalog-date 2013-09-03 12:52:41 +0200
+# catalog-date 2013-11-24 15:41:51 +0100
 # catalog-license lppl1.3
-# catalog-version 1.00
+# catalog-version 1.01
 Name:		texlive-isodoc
-Version:	1.00
+Version:	1.01
 Release:	1
 Summary:	A LaTeX class for the preparation of letters and invoices
 Group:		Publishing
@@ -49,7 +49,6 @@ implements the NEN1026 standard.
 %{_texmfdistdir}/tex/latex/isodoc/isodoc-nl-NL.ldf
 %{_texmfdistdir}/tex/latex/isodoc/isodoc-sr-RS.ldf
 %{_texmfdistdir}/tex/latex/isodoc/isodoc.cls
-%{_texmfdistdir}/tex/latex/isodoc/isodocsymbols.sty
 %doc %{_texmfdistdir}/doc/latex/isodoc/README
 %doc %{_texmfdistdir}/doc/latex/isodoc/accept/accept.sty
 %doc %{_texmfdistdir}/doc/latex/isodoc/accept/accept.tex
