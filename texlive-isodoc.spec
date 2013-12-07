@@ -6,7 +6,7 @@
 # catalog-version 1.01
 Name:		texlive-isodoc
 Version:	1.01
-Release:	2
+Release:	3
 Summary:	A LaTeX class for the preparation of letters and invoices
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isodoc
