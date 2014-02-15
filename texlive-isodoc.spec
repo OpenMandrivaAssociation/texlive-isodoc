@@ -1,12 +1,12 @@
-# revision 32246
+# revision 32844
 # category Package
 # catalog-ctan /macros/latex/contrib/isodoc
-# catalog-date 2013-11-24 15:41:51 +0100
+# catalog-date 2014-01-31 17:04:16 +0100
 # catalog-license lppl1.3
-# catalog-version 1.01
+# catalog-version 1.03
 Name:		texlive-isodoc
-Version:	1.01
-Release:	5
+Version:	1.03
+Release:	1
 Summary:	A LaTeX class for the preparation of letters and invoices
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isodoc
