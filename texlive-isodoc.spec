@@ -1,12 +1,12 @@
-# revision 33075
+# revision 33683
 # category Package
 # catalog-ctan /macros/latex/contrib/isodoc
-# catalog-date 2014-03-01 23:31:16 +0100
+# catalog-date 2014-04-25 15:16:15 +0200
 # catalog-license lppl1.3
-# catalog-version 1.04
+# catalog-version 1.05
 Name:		texlive-isodoc
-Version:	1.04
-Release:	2
+Version:	1.05
+Release:	1
 Summary:	A LaTeX class for typesetting letters and invoices
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isodoc
@@ -48,6 +48,7 @@ implements the NEN1026 standard.
 %{_texmfdistdir}/tex/latex/isodoc/isodoc-nl-BE.ldf
 %{_texmfdistdir}/tex/latex/isodoc/isodoc-nl-NL.ldf
 %{_texmfdistdir}/tex/latex/isodoc/isodoc-sr-RS.ldf
+%{_texmfdistdir}/tex/latex/isodoc/isodoc-template.ldf
 %{_texmfdistdir}/tex/latex/isodoc/isodoc.cls
 %doc %{_texmfdistdir}/doc/latex/isodoc/README
 %doc %{_texmfdistdir}/doc/latex/isodoc/accept/accept.sty
@@ -74,7 +75,6 @@ implements the NEN1026 standard.
 %doc %{_texmfdistdir}/doc/latex/isodoc/ntgletter/ntgletter.tex
 %doc %{_texmfdistdir}/doc/latex/isodoc/ntgletter/signlong.png
 %doc %{_texmfdistdir}/doc/latex/isodoc/ntgletter/signshort.png
-%doc %{_texmfdistdir}/doc/latex/isodoc/template.ldf
 #- source
 %doc %{_texmfdistdir}/source/latex/isodoc/isodoc.dtx
 %doc %{_texmfdistdir}/source/latex/isodoc/isodoc.ins
