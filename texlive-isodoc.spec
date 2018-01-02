@@ -1,12 +1,6 @@
-# revision 33683
-# category Package
-# catalog-ctan /macros/latex/contrib/isodoc
-# catalog-date 2014-04-25 15:16:15 +0200
-# catalog-license lppl1.3
-# catalog-version 1.05
 Name:		texlive-isodoc
-Version:	1.05
-Release:	4
+Version:	1.09
+Release:	1
 Summary:	A LaTeX class for typesetting letters and invoices
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isodoc
@@ -37,47 +31,10 @@ implements the NEN1026 standard.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/isodoc/isodoc-ca-ES.ldf
-%{_texmfdistdir}/tex/latex/isodoc/isodoc-de-DE.ldf
-%{_texmfdistdir}/tex/latex/isodoc/isodoc-en-GB.ldf
-%{_texmfdistdir}/tex/latex/isodoc/isodoc-en-US.ldf
-%{_texmfdistdir}/tex/latex/isodoc/isodoc-es-ES.ldf
-%{_texmfdistdir}/tex/latex/isodoc/isodoc-fr-FR.ldf
-%{_texmfdistdir}/tex/latex/isodoc/isodoc-it-IT.ldf
-%{_texmfdistdir}/tex/latex/isodoc/isodoc-nb-NO.ldf
-%{_texmfdistdir}/tex/latex/isodoc/isodoc-nl-BE.ldf
-%{_texmfdistdir}/tex/latex/isodoc/isodoc-nl-NL.ldf
-%{_texmfdistdir}/tex/latex/isodoc/isodoc-sr-RS.ldf
-%{_texmfdistdir}/tex/latex/isodoc/isodoc-template.ldf
-%{_texmfdistdir}/tex/latex/isodoc/isodoc.cls
-%doc %{_texmfdistdir}/doc/latex/isodoc/README
-%doc %{_texmfdistdir}/doc/latex/isodoc/accept/accept.sty
-%doc %{_texmfdistdir}/doc/latex/isodoc/accept/accept.tex
-%doc %{_texmfdistdir}/doc/latex/isodoc/accept/acceptform.jpg
-%doc %{_texmfdistdir}/doc/latex/isodoc/accept/ntgcolor.png
-%doc %{_texmfdistdir}/doc/latex/isodoc/inst
-%doc %{_texmfdistdir}/doc/latex/isodoc/invoice/invoice.sty
-%doc %{_texmfdistdir}/doc/latex/isodoc/invoice/invoice.tex
-%doc %{_texmfdistdir}/doc/latex/isodoc/isodoc.pdf
-%doc %{_texmfdistdir}/doc/latex/isodoc/letter/letter.sty
-%doc %{_texmfdistdir}/doc/latex/isodoc/letter/letter.tex
-%doc %{_texmfdistdir}/doc/latex/isodoc/letter/sign.png
-%doc %{_texmfdistdir}/doc/latex/isodoc/letter/signmarked.png
-%doc %{_texmfdistdir}/doc/latex/isodoc/listkeys
-%doc %{_texmfdistdir}/doc/latex/isodoc/logoletter/ChopinScript.ttf
-%doc %{_texmfdistdir}/doc/latex/isodoc/logoletter/logoletter.sty
-%doc %{_texmfdistdir}/doc/latex/isodoc/logoletter/logoletter.tex
-%doc %{_texmfdistdir}/doc/latex/isodoc/logoletter/shiva-shakti.png
-%doc %{_texmfdistdir}/doc/latex/isodoc/logoletter/signblue.png
-%doc %{_texmfdistdir}/doc/latex/isodoc/logoletter/typo.txt
-%doc %{_texmfdistdir}/doc/latex/isodoc/ntgletter/ntgcolor.png
-%doc %{_texmfdistdir}/doc/latex/isodoc/ntgletter/ntgletter.sty
-%doc %{_texmfdistdir}/doc/latex/isodoc/ntgletter/ntgletter.tex
-%doc %{_texmfdistdir}/doc/latex/isodoc/ntgletter/signlong.png
-%doc %{_texmfdistdir}/doc/latex/isodoc/ntgletter/signshort.png
+%{_texmfdistdir}/tex/latex/isodoc
+%doc %{_texmfdistdir}/doc/latex/isodoc
 #- source
-%doc %{_texmfdistdir}/source/latex/isodoc/isodoc.dtx
-%doc %{_texmfdistdir}/source/latex/isodoc/isodoc.ins
+%doc %{_texmfdistdir}/source/latex/isodoc
 
 #-----------------------------------------------------------------------
 %prep
