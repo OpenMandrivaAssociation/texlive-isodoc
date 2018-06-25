@@ -1,5 +1,5 @@
 Name:		texlive-isodoc
-Version:	1.09
+Version:	1.10
 Release:	1
 Summary:	A LaTeX class for typesetting letters and invoices
 Group:		Publishing
