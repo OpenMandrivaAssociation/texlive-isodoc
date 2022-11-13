@@ -1,13 +1,13 @@
 Name:		texlive-isodoc
-Version:	1.10
-Release:	2
+Version:	59709
+Release:	1
 Summary:	A LaTeX class for typesetting letters and invoices
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/isodoc
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/isodoc.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/isodoc.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/isodoc.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/isodoc.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/isodoc.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/isodoc.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -22,12 +22,12 @@ class is based on the NTG brief class by Victor Eijkhout, which
 implements the NEN1026 standard.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -38,7 +38,8 @@ implements the NEN1026 standard.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
